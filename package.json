@@ -1,7 +1,7 @@
 {
   "name": "pajv",
   "displayName": "Polyglottal JSON Schema Validator",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "A command line JSON Schema validator that supports many file formats. Fork of jessedc/ajv-cli.",
   "scripts": {
     "eslint": "eslint index.js commands/*.js test/*.js test/**/*.js",
@@ -54,7 +54,8 @@
     "url": "https://github.com/json-schema-everywhere/pajv"
   },
   "dependencies": {
-    "ajv": "^5.0.0",
+    "ajv": "^6.0.0",
+    "ajv-pack": "^0.3.0",
     "any-json": "^3.0.0",
     "deasync": "^0.1.10",
     "deasync-promise": "^1.0.1",
@@ -64,7 +65,7 @@
     "util.promisify": "^1.0.0"
   },
   "devDependencies": {
-    "ajv-keywords": "^2.0.0",
+    "ajv-keywords": "^3.0.0",
     "coveralls": "^2.11.8",
     "eslint": "^2.4.0",
     "mocha": "^2.4.5",

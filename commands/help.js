@@ -75,7 +75,7 @@ parameters\n\
     (file path should start with ".", otherwise used as require package)\n\
 \n\
 options:\n\
-    --errors=          error reporting format ("js" by deafult)\n\
+    --errors=          error reporting format ("js" by default)\n\
     --changes=         log changes in data after validation ("no" by default)\n\
              js        JavaScript object\n\
              json      JSON format\n\
